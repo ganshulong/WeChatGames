@@ -1,0 +1,129 @@
+<view class="wrapper">
+     <view class="header">
+        <text class="label my-score">scoreText: {{score}}</text>
+        <text class="label my-score">Used Time: {{timesGo}}</text>
+    </view>
+    <view wx:for="{{mineMap}}" wx:for-item="row" wx:for-index="i" class="flex-container">
+        <button wx:for="{{row}}" wx:for-item="col" wx:for-index="j" class="flex-item {{col < 9 ? (col < 0 ? '':'open') : ((col > 9) ? 'flag' : 'mine')}}" bindtap="demining" data-x="{{i}}" data-y="{{j}}" data-value="{{col}}">
+            {{col < 9 ? (col < 0 ? '-':col) : ((col > 9) ? 'F' : 'M')}}
+        </button>
+    </view>
+    <view class="footer">
+        <view>
+            <button class="start-button" type="default" bindtap="setGame" hover-class="button-hover"> START </button>
+        </view>
+        <view>
+            <switch bindchange="flagSwitch"/> Flag
+        </view>
+    </view> 
+
+<!-- <view>{{message}}{{message}}</view>
+<view wx:for-items="{{array}}">{{item}}</view>
+<view wx:if="{{view=='a'}}">a</view>
+<view wx:elif="{{view=='b'}}">b</view>
+<view wx:else="{{view=='c'}}">c</view> -->
+
+<!-- 定义 模版
+<template name="staffName">
+  <view>
+    FirstName:{{firstName}}, LastName:{{lastName}}
+  </view>
+</template>
+
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template> -->
+
+<!-- 
+<view >count:{{count}}</view>
+<button bindtap='add'>++count</button>
+
+<view> {{a + b}} + {{c}} + {{c}}+{{c}} </view>
+
+<view id="{{id}}"> {{array[id]}}</view>
+<view wx:if="{{true}}">if=true</view>
+<view wx:else> if=false</view>
+
+<view wx:if="{{ hidden  ? true :false }}"> Hidden is true</view>
+
+<view wx:if="{{testStr}}">"sss"+{{testStr}}+"sss"</view> -->
+
+<!-- <view>{{array[0]}} {{testObject.name}}</view> -->
+
+ <!-- <view wx:for-items="{{[array,9]}}">{{item}}</view>  -->
+
+<!-- <template name="objectCombine">
+  <view>
+    x:{{first}}, y:{{last}}, z:{{z}}
+  </view>
+</template>
+<template is="objectCombine" data="{{first:x,last:y,z:100}}"></template>
+
+<template name="objectCombine2">
+  <view>
+    obj1Name:{{name1}}, obj1Age:{{age1}},
+    obj1Name:{{name2}}, obj1Age:{{age2}},
+    e:{{e}}
+  </view>
+</template>
+<template is="objectCombine2" data="{{...testObject1,...testObject2,e:5}}"></template> -->
+
+
+<!-- <template name="objectItem">
+  <view>
+    Name:{{name}}, Age:{{age}}
+  </view>
+</template>
+<view wx:for-items="{{[objectItem1,objectItem2,objectItem3]}}">{{item.name}}  {{item.age}}  {{item.age22}}</view>  -->
+
+
+<!-- <view wx:for="{{[{aa:11},{aa:22},{aa:33}]}}" wx:for-index="idx">
+  {{idx}}: {{item.aa}}
+</view> -->
+
+<!-- 
+<view wx:for="{{array}}" wx:for-index="i">
+  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+    {{array[i]}}*{{j}}={{array[i]*j}}
+  </view>
+</view> -->
+
+<!-- <block wx:for="{{[1,2,3]}}">
+  <view >{{index}}:{{item}}</view>
+</block> -->
+
+<!-- <switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;"> {{item.id}} </switch>
+<button bindtap="randSwitch"> Switch </button>
+<button bindtap="addToFront"> Add to the front </button>
+
+<switch wx:for="{{numberArray}}" wx:key="*this" style="display: block;"> {{item}} </switch>
+<button bindtap="addNumberToFront"> Add to the front </button> -->
+
+<!-- <block wx:if="{{true}}">
+  <view> view1 </view>
+</block>
+<view hidden="{{false}}">
+  <view> view2 </view>
+</view> -->
+
+<!--以模版方式遍历显示数组  -->
+<!-- <template name="msgItemTemplate">
+  <view>
+    <view>{{index}}: {{msg}}, {{time}}</view>
+  </view>
+</template>
+<template name="msgItemTemplate1">
+  <view>
+    <view>{{time}}, {{index}}: {{msg}}</view>
+  </view>
+</template>
+<view wx:for-items="{{msgArray}}" wx:for-item="msgitem">
+  <template is ="{{index%2==0? 'msgItemTemplate1':'msgItemTemplate'}}" data="{{...msgitem}}" ></template>
+</view> -->
+
+
+<!-- <view id ="tapTest" data-hi="WeChat" bindtap='tapName'>click</view> -->
+
+</view>
+
+

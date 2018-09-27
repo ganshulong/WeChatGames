@@ -1,0 +1,12 @@
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 50%;
+}
+.mini-btn{
+  margin: 0 auto;
+  width: 50%;
+}

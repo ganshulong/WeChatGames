@@ -1,0 +1,132 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "GuidAni",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.9333333333333333,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "Guid_Circle": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -89,
+                180
+              ]
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": [
+                116,
+                180
+              ]
+            },
+            {
+              "frame": 1.9333333333333333,
+              "value": [
+                116,
+                179
+              ]
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 254
+            },
+            {
+              "frame": 1.2666666666666666,
+              "value": 255
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "Guid_press": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                23,
+                137
+              ]
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": [
+                222,
+                137
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "008fc33e-109b-40b7-a649-ab3149fe027b"
+                }
+              },
+              {
+                "frame": 1.3333333333333333,
+                "value": {
+                  "__uuid__": "7b55b225-a2ee-4e90-bcb8-e0f0190dfe12"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Guid_HandPress": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -84,
+                134
+              ]
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": [
+                125,
+                134
+              ]
+            }
+          ]
+        },
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "c8d511e9-174c-4b38-93c1-3ff647e73cf9"
+                }
+              },
+              {
+                "frame": 1.3333333333333333,
+                "value": {
+                  "__uuid__": "df1dfdc6-25a9-4887-bad9-f7ad87170bf6"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": []
+}

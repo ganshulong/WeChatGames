@@ -1,0 +1,81 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "BarCorlorAni",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.6444444444444444,
+  "sample": 45,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "paths": {
+      "bar": {
+        "props": {
+          "color": [
+            {
+              "frame": 0,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 117,
+                "g": 245,
+                "b": 240,
+                "a": 255
+              }
+            },
+            {
+              "frame": 0.6888888888888889,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 0,
+                "b": 245,
+                "a": 255
+              }
+            },
+            {
+              "frame": 1,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 78,
+                "g": 247,
+                "b": 199,
+                "a": 255
+              }
+            },
+            {
+              "frame": 1.3555555555555556,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 0,
+                "b": 214,
+                "a": 255
+              }
+            },
+            {
+              "frame": 1.6444444444444444,
+              "value": {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

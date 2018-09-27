@@ -1,0 +1,19 @@
+ <view class="showInfo">
+    <text class="label">MineNum: {{mineNum}}</text>
+    <text class="label">Time: {{time}}</text>
+</view> 
+<view wx:for="{{showMap}}" wx:for-item="row" wx:for-index="i" class="ss-row">
+    <button wx:for="{{row}}" wx:for-item="col" wx:for-index="j" 
+        class="ss-col {{col < 9 ? (col < 0 ? '':'open') : ((col > 9) ? 'flag' : 'mine')}}" 
+        bindtap="clickBlock" data-x="{{i}}" data-y="{{j}}" data-value="{{col}}">
+            {{col < 9 ? (col < 0 ? '-':col) : ((col > 9) ? 'F' : 'M')}}
+    </button>
+</view>
+ <view class="footer">
+    <view>
+        <button bindtap="restart">Restart</button>
+    </view>
+    <view>
+        <switch bindchange="setFlagSwitch"/>Flag
+    </view>
+</view> 

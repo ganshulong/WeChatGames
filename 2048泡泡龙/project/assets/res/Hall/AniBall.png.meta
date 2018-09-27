@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "86f4f71f-0b77-4ede-874d-f06df87918e8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "AniBall": {
+      "ver": "1.0.3",
+      "uuid": "fb8ac8a2-bc8b-4300-86db-2dd67a1f6e12",
+      "rawTextureUuid": "86f4f71f-0b77-4ede-874d-f06df87918e8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 110,
+      "height": 110,
+      "rawWidth": 110,
+      "rawHeight": 110,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

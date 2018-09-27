@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "c27cd40e-a2de-497e-9d49-56f5b49b6c53",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "model_shandian": {
+      "ver": "1.0.3",
+      "uuid": "db087dd9-8cdc-441b-b74d-e707309eecd9",
+      "rawTextureUuid": "c27cd40e-a2de-497e-9d49-56f5b49b6c53",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 501,
+      "height": 164,
+      "rawWidth": 501,
+      "rawHeight": 164,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

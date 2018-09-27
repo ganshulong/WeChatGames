@@ -1,0 +1,30 @@
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: 'progress'}}"/>
+
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+
+      <view class="progress-box">
+        <progress percent="20" show-info />
+      </view>
+
+      <view class="progress-box">
+        <progress percent="40" active color="#ff0000" stroke-width="6" />
+        <icon class="progress-cancel" type="cancel"></icon>
+      </view>
+
+      <view class="progress-box">
+        <progress percent="60" active stroke-width="12" />
+      </view>
+
+      <view class="progress-box">
+        <progress percent="80" activeColor="#00ff00" backgroundColor="#0000ff"   stroke-width="18" />
+      </view>
+    </view>
+  </view>
+
+  <template is="foot" />
+</view>

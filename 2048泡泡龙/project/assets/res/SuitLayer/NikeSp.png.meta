@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d49eb847-125f-4be7-a7ab-0841827f3ada",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "NikeSp": {
+      "ver": "1.0.3",
+      "uuid": "ab1e8171-a35f-4658-af91-92a1ecf76c2e",
+      "rawTextureUuid": "d49eb847-125f-4be7-a7ab-0841827f3ada",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 91,
+      "height": 64,
+      "rawWidth": 91,
+      "rawHeight": 64,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
